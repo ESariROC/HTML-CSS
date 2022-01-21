@@ -1,0 +1,28 @@
+body {background-color: black;}
+body {font-family: Calibri;
+     color: #5e5c56; }
+h1, h2, h3 {color: #c0cb7f}
+h1, h2, h3 {font-family: Arial, Helvetica, sans-serif;}
+a {color: #677f51;
+text-decoration: none;}
+a:hover {text-decoration: underline;}
+table {
+    border: 1px solid #a64626;
+    border-collapse: collapse;
+}
+table {
+    background-color: #222222;
+    font-weight: bold;
+    text-align: center;
+    width: 250px;
+}
+ul {
+    list-style-type: square;
+}
+ol {
+    list-style-type: lower-greek;
+}
+dt {
+    color: #a64626;
+    font-style: italic;
+}

@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+}
+body {
+    font-family: Verdana;
+    font-size: 14pt;
+}
+header {
+    width: 900px;
+    margin: auto;
+}
+#headwrapper {
+    width: 100%;
+    background-color: white;
+}
+nav {
+    width: 900px;
+    margin: auto;
+    float: right;
+}
+article {
+    background-color: #cccccc;
+    width: 900px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#contact {
+    background-color: #cccccc;
+    width: 900px;
+}
+footer {
+    background-color: #00c9fd;
+    width: 900px;
+    height: 150px;
+}
+header h1 {
+    padding-top: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    color: black;
+    font-size: 30pt;
+    font-family: Impact;
+    font-weight: normal;
+}
+nav a {
+    font-family: Impact;
+    font-size: 15pt;
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+}
+nav a:hover {
+    background-color: #00c9fd;
+}
+#bigimage {
+    width: 100%;
+    height: 550px;
+    background-image: url(images/titan1.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+img {
+    display: block;
+}
+p {
+    padding: 20px;
+}
+article h1 {
+    padding: 10px;
+    font-family: Impact;
+    font-size: 25pt;
+    text-align: center;
+}
+article img {
+    float: right;
+    margin: 20px;
+}
+p a {
+    font-weight: bold;
+    color: #00c9fd;
+    text-decoration: none;
+}
+p a:hover {
+    font-size: 110%;
+    color: black;
+}
+footer p {
+    color: white;
+}
+.focus {
+    color: #00c9fd;
+}
+#bigimage p {
+    width: 350px;
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+}
+main {
+    width: 900px;
+}
+.smallright {
+    width: 290px;
+    margin-left: 10px;
+    float: right;
+}
+.bigleft {
+    width: 590px;
+    margin-right: 10px;
+    float: left; 
+    height: 515px;
+}
+.position {
+    clear: both;
+}
+#bigleft {
+    width: 590px;
+}
